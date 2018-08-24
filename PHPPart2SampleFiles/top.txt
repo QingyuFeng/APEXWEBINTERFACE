@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>Workflow Manager</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper"><div id="bg"><div id="header"></div>
+      <div id="page"><div id="container"><div id="banner"></div>
+        <div id="nav1">
+          <ul style='float: left'>
+            <li><a href="#" shape="rect">Home</a></li>
+            <li><a href="uploadfile.php" shape="rect">Upload</a></li>
+            <li><a href="#" shape="rect">Files</a></li>
+            <?php
+   if (isset($_SESSION["username"]) || isset($username)){
+       if (isset($_SESSION["username"])){
+        $usernameToDisplay =  $_SESSION["username"];
+       } else {
+       $usernameToDisplay = $username;
+       }
+?>
+<li><a href="logout.php" shape="rect">Logout</a></li>
+<li><p style='color:white;'>&nbsp;&nbsp;&nbsp;Welcome, <b><?=$usernameToDisplay?></b>.</p></li>
+<?php
+   } else {
+?>
+      <li><a href="registration.php" shape="rect">Register</a></li>
+      <li><a href="login.php" shape="rect">Login</a></li>
+<?php
+   }
+?>
+          </ul>
+        </div>
+        <div id="content">
+          <div id="center">

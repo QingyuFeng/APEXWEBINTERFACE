@@ -1,0 +1,68 @@
+{
+    "projectname": "default",
+
+    "stateindx": 0,
+    "countyid": 0,
+    "zipcodeid": 0,
+
+    "soilid": 0,
+    "soiltestn": 0,
+    "soiltestp": 0,
+
+    "fieldarea": 40,
+    "fieldslopeid": 0,
+    "fieldslplen": 90,
+
+    "draindpth": 0,
+    "weasource": 1,
+    "weasimyrs": 10,
+    "weastartyr": 2000,
+    "weaendyr": 2010,
+    "dfmk":"default",
+    
+    "irun":"no",
+    "newrun":"no",
+   
+    "management":
+    {
+        "default":
+        {
+        "usrmanorder": 0,
+        "templateid": 2,
+        "mansource": "dft",
+        "mgtname":"default",
+        "mgtarray":
+            {"line1":
+                {
+                "operationseriesid": 1,
+                "operationid":2,
+                "operationeditor": "Default",
+                "opercatgries": "Fertilizer",
+                "lun_landuseno":4,
+                "iaui_autoirr":500,
+                "iauf_autofert":271,
+                "iamf_automanualdepos":268,
+                "ispf_autosolman":266,
+                "ilqf_atliqman":265,
+                "iaul_atlime":267,
+                "jx1_year":1,
+                "jx2_month":4,
+                "jx3_day":15,
+                "jx4_tillid": 136,
+                "jx5_tractid": 21,
+                "jx6_cropid": 2,
+                "jx7":0,
+                "opv1":1200,
+                "opv2":0,
+                "opv4":0,
+                "opv4":0,
+                "opv5":0,
+                "opv6":0,
+                "opv7":0,
+                "opv8":0,
+                "manningn":0
+                }
+            }
+        }
+    }
+}

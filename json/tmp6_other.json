@@ -1,0 +1,20 @@
+{
+
+   "other":
+	{
+	  "subdaily_rfdt_name": "AS1_30Min.HLY",
+	  "latitude": 12.00000,
+	  "longitude": 12.00000,
+	  "runname": "Updated",
+	  "subAreaProj": 123,
+	  "SlopeProj": 123,
+	  "SlopeLenProj": 123,
+	  "ManNameProj": "test",
+	  "SoilNameProj": "test",
+	  "SoilTNProj": 123,
+	  "SoilTPProj": 123,
+	  "TileDepthProj": 123
+	 }
+	  
+   
+}

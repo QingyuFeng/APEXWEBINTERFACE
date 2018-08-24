@@ -1,0 +1,138 @@
+{
+    "stateid": 1,
+    "countyid": 1,
+    "zipcodeid": 1,
+    
+    "soilmukeyid": 1,
+    "soiltestn": 0,
+    "soiltestp": 0,
+    
+    "fieldarea": 500,
+    "fieldslopeid": 1,
+    "fieldslplen": 50,
+    
+    "management":
+    {
+        "manid": 1,
+        "mantb": "usrtb",
+        "mgtname":"temp",
+        "operationid":
+        {
+          "operationid1":1
+        },
+
+       "lun_landuseno": 
+        {
+            "lun_landuseno1":1
+        },	  
+
+        "iaui_autoirr": 
+        {
+            "iaui_autoirr1":1
+        },
+       "iauf_autofert": 
+        {
+            "iauf_autofert1":1
+        },	  
+
+       "iamf_automanualdepos": 
+        {
+            "iamf_automanualdepos1":1
+        },	  
+
+       "ispf_autosolman": 
+        {
+            "ispf_autosolman1":1
+        },	  
+
+       "ilqf_atliqman": 
+        {
+            "ilqf_atliqman1":1
+        },	  
+
+       "iaul_atlime": 
+        {
+            "iaul_atlime1":1
+        },	  
+
+       "jx1_year": 
+        {
+            "jx1_year1":1
+        },	  
+
+       "jx2_month": 
+        {
+            "jx2_month1":1
+        },	  
+
+        "jx3_day": 
+        {
+            "jx3_day1":1
+        },
+        "jx4_tillid":
+        {
+            "jx4_tillid1": 1
+        },
+        "jx5_tractid":
+        {
+            "jx5_tractid1": "1.00"
+        },
+        "jx6_cropid":
+        {
+            "jx6_cropid1": "330.00"
+        },
+        "jx7":
+        {
+            "jx71": "0.00"
+        },
+        "opv1":
+        {
+            "opv11": "0.00"
+        },
+        "opv2":
+        {
+            "opv21": "0.00"
+        },
+
+        "opv3":
+        {
+            "opv31": 1
+        },	  
+
+        "opv4":
+        {
+            "opv41": 1
+        },	  
+
+        "opv5":
+        {
+            "opv51": 1
+        },	
+
+        "opv6":
+        {
+            "opv61": 1
+        },
+
+        "opv7":
+        {
+            "opv71": 1
+        },
+
+        "opv8":
+        {
+            "opv81": 1
+        },	  
+
+        "manningn":
+        {
+            "manningn1": 1
+        }
+
+    },
+    
+    "weasource": 1,
+    "weasimyrs": 10,
+    "weastartyr": 2000,
+    "weaendyr": 2010
+}
